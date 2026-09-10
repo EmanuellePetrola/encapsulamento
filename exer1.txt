@@ -1,0 +1,34 @@
+using Encapsulamento;
+
+Pessoa.cs *
+namespace Encapsulamento
+{
+    internal class Pessoa
+    {
+        private string _nome;
+
+        public string Nome
+        {
+            get { return _nome; }
+            set
+            {
+                _nome = value;
+            }
+        }
+    }
+}
+
+namespace Encapsulamento
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Pessoa p = new Pessoa();
+            p.Nome = "Emanuelle";
+            Console.WriteLine(p.Nome);
+            Console.WriteLine();
+        }
+    }
+}
+ 
