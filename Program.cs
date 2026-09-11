@@ -1,17 +1,20 @@
-﻿
-namespace Encapsulamento
+﻿internal class Pessoa
 {
-    internal class Program
+    private string _nome;
+    public string Nome
     {
-        static void Main(string[] args)
+        get { return _nome; }
+        set
         {
-            Pessoa p = new Pessoa();
-            p.Nome = "Emanuelle";
-            Console.WriteLine(p.Nome);
-            Console.WriteLine();
+            _nome = value;
         }
     }
 }
+}
+
+Pessoa p = new Pessoa();
+p.Nome = "Marcos";
+Console.WriteLine(p.Nome);
 
 
 
