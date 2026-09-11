@@ -1,6 +1,6 @@
 ﻿using Encapsulamento;
 
-Pessoa.cs *
+Pessoa.cs 
 namespace Encapsulamento
 {
     internal class Pessoa
